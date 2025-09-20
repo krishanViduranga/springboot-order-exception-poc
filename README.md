@@ -16,18 +16,3 @@ It shows how to **prevent raw database exceptions** from leaking to end users by
 - Clean JSON error responses (no raw SQL errors)
 
 ---
-
-## 📂 Project Structure
-order-poc/
-┣ src/main/java/com/example/orderpoc/
-┃ ┣ controller/OrderController.java
-┃ ┣ exception/DatabaseException.java
-┃ ┣ exception/OrderNotFoundException.java
-┃ ┣ exception/GlobalExceptionHandler.java
-┃ ┣ model/Order.java
-┃ ┣ repository/OrderRepository.java
-┃ ┣ service/OrderService.java
-┃ ┗ OrderPocApplication.java
-┗ src/main/resources/
-┣ application.properties
-┗ data.sql
